@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yaml-to-sql" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.varsha.yamlparser" target="17" />
+      <module name="src" target="1.5" />
+      <module name="yaml-parser-utility" target="1.5" />
+      <module name="Yaml-to-SQL-SpringBoot" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.varsha.yamlparser" options="-parameters" />
+      <module name="yaml-to-sql" options="-parameters" />
+    </option>
+  </component>
+</project>
