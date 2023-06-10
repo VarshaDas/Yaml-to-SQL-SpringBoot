@@ -1,6 +1,0 @@
-services/PersonService.class
-com/varsha/yamlparser/YamlSaver.class
-utility/YamlHelper.class
-repository/UserRepository.class
-models/Person.class
-controllers/PersonController.class
